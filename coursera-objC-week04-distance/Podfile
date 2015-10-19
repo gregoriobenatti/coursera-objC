@@ -1,0 +1,9 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'coursera-objC-week04-distance' do
+
+pod 'DistanceGetter' , '~> 0.1'
+
+end
+

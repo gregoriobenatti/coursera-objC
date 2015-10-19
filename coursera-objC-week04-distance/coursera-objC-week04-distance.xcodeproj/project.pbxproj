@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7799F08394530345161A795B /* libPods-coursera-objC-week04-distance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572DFDE982A90B72EDC842E /* libPods-coursera-objC-week04-distance.a */; };
+		CEBF57DF1BD461BB000AFFCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF57DE1BD461BB000AFFCE /* main.m */; };
+		CEBF57E21BD461BB000AFFCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF57E11BD461BB000AFFCE /* AppDelegate.m */; };
+		CEBF57E51BD461BB000AFFCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF57E41BD461BB000AFFCE /* ViewController.m */; };
+		CEBF57E81BD461BB000AFFCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBF57E61BD461BB000AFFCE /* Main.storyboard */; };
+		CEBF57EA1BD461BB000AFFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBF57E91BD461BB000AFFCE /* Assets.xcassets */; };
+		CEBF57ED1BD461BB000AFFCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBF57EB1BD461BB000AFFCE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62D5464DCD3A2A8FB8262C75 /* Pods-coursera-objC-week04-distance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coursera-objC-week04-distance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coursera-objC-week04-distance/Pods-coursera-objC-week04-distance.debug.xcconfig"; sourceTree = "<group>"; };
+		8572DFDE982A90B72EDC842E /* libPods-coursera-objC-week04-distance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coursera-objC-week04-distance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0DAAAB41446F223ABAE203 /* Pods-coursera-objC-week04-distance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coursera-objC-week04-distance.release.xcconfig"; path = "Pods/Target Support Files/Pods-coursera-objC-week04-distance/Pods-coursera-objC-week04-distance.release.xcconfig"; sourceTree = "<group>"; };
+		CEBF57DA1BD461BB000AFFCE /* coursera-objC-week04-distance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coursera-objC-week04-distance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBF57DE1BD461BB000AFFCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBF57E01BD461BB000AFFCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEBF57E11BD461BB000AFFCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEBF57E31BD461BB000AFFCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEBF57E41BD461BB000AFFCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEBF57E71BD461BB000AFFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBF57E91BD461BB000AFFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBF57EC1BD461BB000AFFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBF57EE1BD461BB000AFFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBF57D71BD461BA000AFFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7799F08394530345161A795B /* libPods-coursera-objC-week04-distance.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBC3CB712770360255893EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62D5464DCD3A2A8FB8262C75 /* Pods-coursera-objC-week04-distance.debug.xcconfig */,
+				AB0DAAAB41446F223ABAE203 /* Pods-coursera-objC-week04-distance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F228AEF848A532CEB4731B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8572DFDE982A90B72EDC842E /* libPods-coursera-objC-week04-distance.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEBF57D11BD461BA000AFFCE = {
+			isa = PBXGroup;
+			children = (
+				CEBF57DC1BD461BB000AFFCE /* coursera-objC-week04-distance */,
+				CEBF57DB1BD461BB000AFFCE /* Products */,
+				3BBC3CB712770360255893EC /* Pods */,
+				5F228AEF848A532CEB4731B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBF57DB1BD461BB000AFFCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBF57DA1BD461BB000AFFCE /* coursera-objC-week04-distance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBF57DC1BD461BB000AFFCE /* coursera-objC-week04-distance */ = {
+			isa = PBXGroup;
+			children = (
+				CEBF57E01BD461BB000AFFCE /* AppDelegate.h */,
+				CEBF57E11BD461BB000AFFCE /* AppDelegate.m */,
+				CEBF57E31BD461BB000AFFCE /* ViewController.h */,
+				CEBF57E41BD461BB000AFFCE /* ViewController.m */,
+				CEBF57E61BD461BB000AFFCE /* Main.storyboard */,
+				CEBF57E91BD461BB000AFFCE /* Assets.xcassets */,
+				CEBF57EB1BD461BB000AFFCE /* LaunchScreen.storyboard */,
+				CEBF57EE1BD461BB000AFFCE /* Info.plist */,
+				CEBF57DD1BD461BB000AFFCE /* Supporting Files */,
+			);
+			path = "coursera-objC-week04-distance";
+			sourceTree = "<group>";
+		};
+		CEBF57DD1BD461BB000AFFCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBF57DE1BD461BB000AFFCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBF57D91BD461BA000AFFCE /* coursera-objC-week04-distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBF57F11BD461BB000AFFCE /* Build configuration list for PBXNativeTarget "coursera-objC-week04-distance" */;
+			buildPhases = (
+				0C903DAB0D6BC2CB48E16F59 /* Check Pods Manifest.lock */,
+				CEBF57D61BD461BA000AFFCE /* Sources */,
+				CEBF57D71BD461BA000AFFCE /* Frameworks */,
+				CEBF57D81BD461BA000AFFCE /* Resources */,
+				B08FD77AAECE00E146B99ADD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "coursera-objC-week04-distance";
+			productName = "coursera-objC-week04-distance";
+			productReference = CEBF57DA1BD461BB000AFFCE /* coursera-objC-week04-distance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBF57D21BD461BA000AFFCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Gregorio Benatti";
+				TargetAttributes = {
+					CEBF57D91BD461BA000AFFCE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CEBF57D51BD461BA000AFFCE /* Build configuration list for PBXProject "coursera-objC-week04-distance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBF57D11BD461BA000AFFCE;
+			productRefGroup = CEBF57DB1BD461BB000AFFCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBF57D91BD461BA000AFFCE /* coursera-objC-week04-distance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBF57D81BD461BA000AFFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBF57ED1BD461BB000AFFCE /* LaunchScreen.storyboard in Resources */,
+				CEBF57EA1BD461BB000AFFCE /* Assets.xcassets in Resources */,
+				CEBF57E81BD461BB000AFFCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C903DAB0D6BC2CB48E16F59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B08FD77AAECE00E146B99ADD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coursera-objC-week04-distance/Pods-coursera-objC-week04-distance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBF57D61BD461BA000AFFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBF57E51BD461BB000AFFCE /* ViewController.m in Sources */,
+				CEBF57E21BD461BB000AFFCE /* AppDelegate.m in Sources */,
+				CEBF57DF1BD461BB000AFFCE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEBF57E61BD461BB000AFFCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBF57E71BD461BB000AFFCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBF57EB1BD461BB000AFFCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBF57EC1BD461BB000AFFCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBF57EF1BD461BB000AFFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBF57F01BD461BB000AFFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBF57F21BD461BB000AFFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D5464DCD3A2A8FB8262C75 /* Pods-coursera-objC-week04-distance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "coursera-objC-week04-distance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gregoriobenatti.coursera-objC-week04-distance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEBF57F31BD461BB000AFFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0DAAAB41446F223ABAE203 /* Pods-coursera-objC-week04-distance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "coursera-objC-week04-distance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.gregoriobenatti.coursera-objC-week04-distance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBF57D51BD461BA000AFFCE /* Build configuration list for PBXProject "coursera-objC-week04-distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBF57EF1BD461BB000AFFCE /* Debug */,
+				CEBF57F01BD461BB000AFFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBF57F11BD461BB000AFFCE /* Build configuration list for PBXNativeTarget "coursera-objC-week04-distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBF57F21BD461BB000AFFCE /* Debug */,
+				CEBF57F31BD461BB000AFFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBF57D21BD461BA000AFFCE /* Project object */;
+}
